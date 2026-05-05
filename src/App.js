@@ -1,13 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Timer from "./Timer";
 
 function App() {
-  return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Hello React with Git 061 </h1>
-      <p>A1 Practical</p>
-    </div>
-  );
+  return <Timer />;
 }
 
 export default App;
